@@ -65,6 +65,7 @@ addressId = 1 包含了 personId = 2 的地址信息。
 链接：https://leetcode.cn/problems/combine-two-tables
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+//left join ... on ... : 左边表全部查询，有空的为Null
 select firstName,lastName,city,state
 from Person p left join Address a
 on p.personId = a.personId
